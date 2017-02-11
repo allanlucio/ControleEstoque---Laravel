@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4904eddde5f922ef87c0710d763fd1f2",
+    "content-hash": "6d93c9acfa3065b6fbe14642c4299163",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -1411,6 +1411,115 @@
                 "uuid"
             ],
             "time": "2016-11-22T19:21:44+00:00"
+        },
+        {
+            "name": "respect/validation",
+            "version": "1.0.16",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Respect/Validation.git",
+                "reference": "8eb95c2b04fc3c30d19fdc59ca84e81795c9c9a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Respect/Validation/zipball/8eb95c2b04fc3c30d19fdc59ca84e81795c9c9a3",
+                "reference": "8eb95c2b04fc3c30d19fdc59ca84e81795c9c9a3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "symfony/polyfill-mbstring": "^1.2"
+            },
+            "require-dev": {
+                "egulias/email-validator": "~1.2",
+                "malkusch/bav": "~1.0",
+                "mikey179/vfsstream": "^1.5",
+                "phpunit/phpunit": "~4.0",
+                "symfony/validator": "~2.6.9",
+                "zendframework/zend-validator": "~2.3"
+            },
+            "suggest": {
+                "egulias/email-validator": "Strict (RFC compliant) email validation",
+                "ext-bcmath": "Arbitrary Precision Mathematics",
+                "ext-mbstring": "Multibyte String Functions",
+                "fabpot/php-cs-fixer": "Fix PSR2 and other coding style issues",
+                "malkusch/bav": "German bank account validation",
+                "symfony/validator": "Use Symfony validator through Respect\\Validation",
+                "zendframework/zend-validator": "Use Zend Framework validator through Respect\\Validation"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Respect\\Validation\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD Style"
+            ],
+            "authors": [
+                {
+                    "name": "Respect/Validation Contributors",
+                    "homepage": "https://github.com/Respect/Validation/graphs/contributors"
+                }
+            ],
+            "description": "The most awesome validation engine ever created for PHP",
+            "homepage": "http://respect.li",
+            "keywords": [
+                "respect",
+                "validation",
+                "validator"
+            ],
+            "time": "2017-01-26T14:38:38+00:00"
+        },
+        {
+            "name": "resultsystems/validation",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/resultsystems/validation.git",
+                "reference": "d537080cbcc7dd63d8f0b87cad58b2379c6e6bdf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/resultsystems/validation/zipball/d537080cbcc7dd63d8f0b87cad58b2379c6e6bdf",
+                "reference": "d537080cbcc7dd63d8f0b87cad58b2379c6e6bdf",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.4.*",
+                "php": ">=5.6.4",
+                "respect/validation": "1.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ResultSystems\\Validation\\": "src/Validation"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Leandro Henrique Reis",
+                    "email": "emtudo@gmail.com"
+                }
+            ],
+            "description": "Inspired 'KennedyTedesco Validation' - The power of 'Respect Validation' on Laravel.",
+            "keywords": [
+                "laravel",
+                "respect",
+                "rules",
+                "validation"
+            ],
+            "time": "2017-01-24T16:45:20+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
